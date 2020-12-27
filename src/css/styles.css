@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.5;
+  color: #2a2a2a;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+}
+.title,
+.search-form,
+.country-container,
+.list-container {
+  display: flex;
+  justify-content: center;
+}
+ 
+.title{
+    color: blue;
+}
+.name {
+  text-align: center;
+}
+.item span {
+  font-weight: bold;
+}
+.country-list {
+  margin-right: 40px;
+  padding: 0;
+  min-width: 200px;
+}
+
+.flag {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.form-input {
+  border: 1px solid #2c0c0c;
+  border-radius: 3px;
+}
